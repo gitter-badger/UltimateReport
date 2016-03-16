@@ -1,0 +1,18 @@
+#  _   _ _ _   _                 _       ____                       _
+# | | | | | |_(_)_ __ ___   __ _| |_ ___|  _ \ ___ _ __   ___  _ __| |_
+# | | | | | __| | '_ ` _ \ / _` | __/ _ \ |_) / _ \ '_ \ / _ \| '__| __|
+# | |_| | | |_| | | | | | | (_| | ||  __/  _ <  __/ |_) | (_) | |  | |_
+#  \___/|_|\__|_|_| |_| |_|\__,_|\__\___|_| \_\___| .__/ \___/|_|   \__|
+#                                                 |_|
+
+# This is the Plugin.yml File for UltimateReport. Don't edit this unless you want destroy the Plugin.
+# I will give no support to you if you edit this file. All changes are at your own risk.
+
+# Name Attribute - Used to identify the Plugin (used by the API)
+name: UltimateReport
+# Main Class - Used to load the Plugin (edit this and the Plugin won't load)
+main: cc.acquized.ultimatereport.Main
+# Version Attribute - Used by the Updater (edit this and the Updater messes up)
+version: 2.0-SNAPSHOT
+# Author Attribute - Used by BungeeCord (edit this and i will be very sad)
+author: Acquized

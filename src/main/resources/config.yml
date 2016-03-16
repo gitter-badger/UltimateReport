@@ -1,0 +1,39 @@
+#  _   _ _ _   _                 _       ____                       _
+# | | | | | |_(_)_ __ ___   __ _| |_ ___|  _ \ ___ _ __   ___  _ __| |_
+# | | | | | __| | '_ ` _ \ / _` | __/ _ \ |_) / _ \ '_ \ / _ \| '__| __|
+# | |_| | | |_| | | | | | | (_| | ||  __/  _ <  __/ |_) | (_) | |  | |_
+#  \___/|_|\__|_|_| |_| |_|\__,_|\__\___|_| \_\___| .__/ \___/|_|   \__|
+#                                                 |_|
+
+# This is the Config.yml File for UltimateReport
+# Edit anything except the "Version" String if you want.
+# Changing the "Version" String causes Errors in the Updater
+# If you need help, feel free to message me on Spigot with a PM.
+
+UltimateReport:
+  # Set here the Prefix that should be infront of all Messages
+  Prefix: '&7[&9UltimateReport&7] &r'
+  # Don't change this unless you want break the Updater which causes the Plugin to break
+  Version: '2.0-SNAPSHOT'
+
+Management:
+  # Should Permissions be used for default Player Commands?
+  # This includes the /report and the /ultimatestaff Command.
+  UsePermissions: false
+
+Database:
+  # Put in here your Database Type
+  # Currently supported: MySQL (Case Sensitive)
+  Type: MySQL
+  # Put in here your MySQL Adress if you use MySQL
+  Adress: 127.0.0.1
+  # Put in here your MySQL Port if you use MySQL
+  Port: 3306
+  # Put in here your MySQL Database Name if you use MySQL
+  Database: reports
+  # Put in here the table Prefix. Only use this if its a shared database
+  TablePrefix: 'ur_'
+  # Put in here your MySQL Username if you use MySQL
+  Username: root
+  # Put in here your MySQL Passwort if you use MySQL. Leave blank ('') when you don't have a password set
+  Password: 'passw0rd'
