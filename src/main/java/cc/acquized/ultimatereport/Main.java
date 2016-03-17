@@ -29,6 +29,7 @@ public class Main extends Plugin {
     @Override
     public void onDisable() {
         Config.saveFile();
+        Database.disconnect();
         instance = null;
         getLogger().log(Level.SEVERE, "[UltimateReport] UltimateReport v" + getDescription().getVersion() + " was disabled.");
     }

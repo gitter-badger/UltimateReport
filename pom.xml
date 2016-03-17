@@ -53,6 +53,14 @@
                     <include>LICENSE</include>
                 </includes>
             </resource>
+            <resource>
+                <targetPath>./META-INF</targetPath>
+                <filtering>true</filtering>
+                <directory>${basedir}/src/main/java/META-INF</directory>
+                <includes>
+                    <include>MANIFEST.MF</include>
+                </includes>
+            </resource>
         </resources>
         <plugins>
             <plugin>
