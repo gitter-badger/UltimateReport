@@ -1,6 +1,6 @@
-package cc.acquized.ultimatereport.file;
+package cc.acquized.ultimatereporttest.file;
 
-import cc.acquized.ultimatereport.Main;
+import cc.acquized.ultimatereporttest.Main;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;

@@ -13,6 +13,9 @@
 UltimateReport:
   # Set here the Prefix that should be infront of all Messages
   Prefix: '&7[&9UltimateReport&7] &r'
+  # Set here the Language that should be used
+  # A language File with the name messages_<language>.properties needs to exist in plugins/UltimateReport/languages Folder
+  Language: en
   # Don't change this unless you want break the Updater which causes the Plugin to break
   Version: '2.0-SNAPSHOT'
 
