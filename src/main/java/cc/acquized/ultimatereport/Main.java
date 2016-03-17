@@ -9,7 +9,7 @@ import net.md_5.bungee.api.plugin.PluginManager;
 
 import java.util.logging.Level;
 
-@Note("Early Developement State: Release holded for hard testing on Roviverse")
+@Note("Early Developement State: Release holded.")
 public class Main extends Plugin {
 
     public static String pr = "§7[§9UltimateReport§7] §r";
