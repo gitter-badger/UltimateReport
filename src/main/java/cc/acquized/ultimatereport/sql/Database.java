@@ -1,6 +1,6 @@
-package cc.acquized.ultimatereporttest.sql;
+package cc.acquized.ultimatereport.sql;
 
-import cc.acquized.ultimatereporttest.Main;
+import cc.acquized.ultimatereport.Main;
 
 import java.util.logging.Level;
 

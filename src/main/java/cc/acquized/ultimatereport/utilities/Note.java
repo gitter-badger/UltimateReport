@@ -1,4 +1,4 @@
-package cc.acquized.ultimatereporttest.utilities;
+package cc.acquized.ultimatereport.utilities;
 
 public @interface Note {
 

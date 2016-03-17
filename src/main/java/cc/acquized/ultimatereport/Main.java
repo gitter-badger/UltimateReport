@@ -1,16 +1,16 @@
-package cc.acquized.ultimatereporttest;
+package cc.acquized.ultimatereport;
 
-import cc.acquized.ultimatereporttest.file.Config;
-import cc.acquized.ultimatereporttest.file.Messages;
-import cc.acquized.ultimatereporttest.sql.Database;
-import cc.acquized.ultimatereporttest.utilities.Note;
+import cc.acquized.ultimatereport.file.Config;
+import cc.acquized.ultimatereport.file.Messages;
+import cc.acquized.ultimatereport.sql.Database;
+import cc.acquized.ultimatereport.utilities.Note;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.plugin.PluginManager;
 
 import java.util.logging.Level;
 
-@Note("Early Developement State: Release currently holded")
+@Note("Early Developement State: Release holded.")
 public class Main extends Plugin {
 
     public static String pr = "§7[§9UltimateReport§7] §r";

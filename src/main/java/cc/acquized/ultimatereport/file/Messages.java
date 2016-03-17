@@ -1,6 +1,6 @@
-package cc.acquized.ultimatereporttest.file;
+package cc.acquized.ultimatereport.file;
 
-import cc.acquized.ultimatereporttest.Main;
+import cc.acquized.ultimatereport.Main;
 import net.md_5.bungee.api.ChatColor;
 
 import java.io.File;
