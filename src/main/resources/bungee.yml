@@ -16,3 +16,8 @@ main: cc.acquized.ultimatereport.Main
 version: 2.0-SNAPSHOT
 # Author Attribute - Used by BungeeCord (edit this and i will be very sad)
 author: Acquized
+
+# Permissions
+# - ultimatereport.reports.receive (Utils.java)
+#
+#

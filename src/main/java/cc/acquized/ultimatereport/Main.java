@@ -2,6 +2,7 @@ package cc.acquized.ultimatereport;
 
 import cc.acquized.ultimatereport.file.Config;
 import cc.acquized.ultimatereport.file.Messages;
+import cc.acquized.ultimatereport.sql.DataStorage;
 import cc.acquized.ultimatereport.sql.Database;
 import cc.acquized.ultimatereport.utilities.Note;
 import net.md_5.bungee.api.ProxyServer;
@@ -23,6 +24,7 @@ public class Main extends Plugin {
         Config.loadFile();
         Messages.loadFile();
         Database.connect();
+        DataStorage.getInstance().createTables();
         getLogger().log(Level.SEVERE, "[UltimateReport] UltimateReport v" + getDescription().getVersion() + " was enabled.");
     }
 

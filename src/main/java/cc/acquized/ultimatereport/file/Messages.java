@@ -34,7 +34,7 @@ public class Messages {
     }
 
     public static String getMessage(String path) {
-        return ChatColor.translateAlternateColorCodes('&', bundle.getString(path));
+        return ChatColor.translateAlternateColorCodes('&', Config.getConfig().getString("UltimateReport.Prefix") + bundle.getString(path));
     }
 
     public static File getDirectory() {

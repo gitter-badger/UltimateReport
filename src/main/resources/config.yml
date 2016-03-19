@@ -20,9 +20,24 @@ UltimateReport:
   Version: '2.0-SNAPSHOT'
 
 Management:
-  # Should Permissions be used for default Player Commands?
-  # This includes the /report and the /ultimatestaff Command.
-  UsePermissions: false
+  # What Mode should be used to send a Notification Message to Staff Members?
+  # Allowed: CHAT, TITLE (case sensitive)
+  Mode: CHAT
+  # How long should be different Times (in ticks) (20 ticks = 1 second)
+  TitleFadeIn: 2
+  TitleStay: 30
+  TitleFadeOut: 2
+  # Should send all x Minutes a reminder of how many new Reports are waiting?
+  Reminder:
+    # Should this Feature be enabled?
+    Enabled: true
+    # How many Minutes should a reminder be send?
+    Time: 10
+  # How long should be the Cooldown in Seconds a user needs to wait before making another Report? Set to 0 to disable.
+  Cooldown: 60
+  # How long should be the Cooldown for the target when it was already reported?
+  # This fixes that many User report the same target and the spam gets spammed
+  TargetCooldown: 60
 
 Database:
   # Put in here your Database Type

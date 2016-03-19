@@ -7,8 +7,8 @@ You can obtain official Builds from our Spigot Page: https://www.spigotmc.org/re
 You can also obtain Developement Builds from the Release Tab: https://github.com/Acquized/UltimateReport/releases
   
 ### Brief Description  
-UltimateReport was one of the first Report Plugins out there, that were compatible with BungeeCord and were simple. In the first builds, it only contains a lack  
-of Features, but now it has expanded to one of the biggest Reports Plugin on Spigot. It contains in the newest version over 20 Features for a perfect  
+UltimateReport was one of the first Report Plugins out there, that were compatible with BungeeCord and were simple. In the first builds, it only contains a lack
+of Features, but now it has expanded to one of the biggest Reports Plugin on Spigot. It contains in the newest version over 20 Features for a perfect
 experience. But with all the features, we didn't forgot to keep it simple. Also, you can edit any messages or disable any feature if you don't like it. Its just great.  
   
 ## About the team  

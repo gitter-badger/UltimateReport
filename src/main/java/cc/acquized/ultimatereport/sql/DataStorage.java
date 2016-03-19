@@ -42,10 +42,10 @@ public class DataStorage {
     // ---------- WAITING QUEUE ---------- \\
 
     @Note("Adds a entry to the Waiting Queue. It will be displayed as soon a staff joins.")
-    public void addToWaitingQueue(UUID victim, UUID reporter, String reason) {
+    public void addToWaitingQueue(Report r) {
         try {
             Statement s = Database.getConnection().createStatement();
-            s.executeUpdate("INSERT INTO `" + prefix + "waiting` (`victim`, `reporter`, `reason`) VALUES ('" + victim.toString() + "', '" + reporter.toString() + "', '" + reason + "');");
+            s.executeUpdate("INSERT INTO `" + prefix + "waiting` (`victim`, `reporter`, `reason`) VALUES ('" + Cache.convertToUUID(r.getVictim()) + "', '" + Cache.convertToUUID(r.getReporter()) + "', '" + r.getReason() + "');");
             s.close();
         } catch (SQLException ex) {
             Main.getInstance().getLogger().log(Level.SEVERE, "[UltimateReport] An error in MySQL occured. Message: " + ex.getMessage());
@@ -118,6 +118,17 @@ public class DataStorage {
             }
         }
         return (Report[]) reports.toArray();
+    }
+
+    @Note("Adds a entry")
+    public void addToHistory(Report r) {
+        try {
+            Statement s = Database.getConnection().createStatement();
+            s.executeUpdate("INSERT INTO `" + prefix + "history` (`victim`, `reporter`, `reason`) VALUES ('" + Cache.convertToUUID(r.getVictim()) + "', '" + Cache.convertToUUID(r.getReporter()) + "', '" + r.getReason() + "');");
+            s.close();
+        } catch (SQLException ex) {
+            Main.getInstance().getLogger().log(Level.SEVERE, "[UltimateReport] An error in MySQL occured. Message: " + ex.getMessage());
+        }
     }
 
     @Note("Clears the History Table")
