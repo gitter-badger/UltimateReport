@@ -29,4 +29,4 @@ Requires Libraries:
   
 Head over to Spigot to see the latest Dependecies.
 
-(The project will be remaked, expect commits soon)
+(The project will be remaked, expect commits soon!)
