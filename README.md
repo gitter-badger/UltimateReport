@@ -1,4 +1,6 @@
 # UltimateReport  
+
+[![Join the chat at https://gitter.im/Acquized/UltimateReport](https://badges.gitter.im/Acquized/UltimateReport.svg)](https://gitter.im/Acquized/UltimateReport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![Build](https://img.shields.io/travis/Acquized/UltimateReport.svg?style=flat-square) ![Downloads](https://img.shields.io/github/downloads/Acquized/UltimateReport/total.svg?style=flat-square) ![Release](https://img.shields.io/github/release/Acquized/UltimateReport.svg?style=flat-square) ![License](https://img.shields.io/github/license/Acquized/UltimateReport.svg?style=flat-square)  
 > UltimateReport is the first simple and working Report Plugin for BungeeCord  
   
